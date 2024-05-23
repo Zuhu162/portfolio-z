@@ -1,6 +1,20 @@
 import React from "react";
 
-const ProjectHover = ({ product }) => {
+interface Props {
+  title: String;
+  desc: String;
+}
+
+const ProjectHover = ({
+  product,
+}: {
+  product: {
+    title: string;
+    link: string;
+    thumbnail?: any;
+    desc: string;
+  };
+}) => {
   return (
     <div>
       <div className="absolute rounded-lg inset-0 h-full w-full opacity-0 group-hover/product:opacity-60 bg-black pointer-events-none"></div>

@@ -5,6 +5,8 @@ import React, { useRef } from "react";
 
 const Experiences = () => {
   const experiences = getExperienceData();
+  const ref = useRef(null);
+  const isInView = useInView(ref);
 
   return (
     <div className="mx-auto w-full flex flex-col container p-10">
@@ -12,9 +14,6 @@ const Experiences = () => {
         Experience
       </p>
       {experiences.map((e, index) => {
-        const ref = useRef(null);
-        const isInView = useInView(ref);
-
         return (
           <motion.div
             key={index}

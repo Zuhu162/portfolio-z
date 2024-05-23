@@ -18,7 +18,6 @@ export default function Home() {
   const { scrollYProgress } = useScroll();
   const [viewportHeight, setViewportHeight] = useState(0);
   const [navWidth, setNavWidth] = useState("full");
-  // const [displayLogo, setDisplayLogo] = useState("block");
 
   useEffect(() => {
     const updateViewportHeight = () => setViewportHeight(window.innerHeight);

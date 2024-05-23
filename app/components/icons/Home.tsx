@@ -1,5 +1,4 @@
 import React from "react";
-import Loading from "../Loading";
 
 interface Props {
   className: string;

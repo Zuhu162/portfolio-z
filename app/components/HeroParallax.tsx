@@ -17,8 +17,9 @@ export const HeroParallax = ({
   products: {
     title: string;
     link: string;
-    thumbnail: any;
+    thumbnail?: any;
     bgColor: string;
+    desc: string;
   }[];
 }) => {
   const firstRow = products.slice(0, 3);
@@ -133,7 +134,7 @@ export const ProductCard = ({
   product: {
     title: string;
     link: string;
-    thumbnail: any;
+    thumbnail?: any;
     desc: string;
   };
   translate: MotionValue<number>;

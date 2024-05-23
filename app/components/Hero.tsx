@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     <div className="mt-10 container block text-center justify-center mx-auto w-full min-h-screen h-auto px-2 xl:flex xl:text-left xl:w-9/12 xl:mt-0">
       <div className="w-full flex flex-col align-middle justify-center">
-        <p className="text-2xl text-neutral">Hi there, I'm</p>
+        <p className="text-2xl text-neutral">Hi there, I&apos;m</p>
         <TypewriterEffectSmooth
           words={words}
           className="my-typewriter"
