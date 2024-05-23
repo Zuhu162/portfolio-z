@@ -2,32 +2,74 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+html {
+  --scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #020c1f;
+  background-image: linear-gradient(
+    to right top,
+    #020c1f,
+    #04081a,
+    #050514,
+    #04020d,
+    #010004
+  );
+
+  width: 100%;
+  padding-top: 20px;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+.navbar {
+  background: rgba(34, 42, 56, 0.3);
+}
+
+.text-gradient {
+  /* Use a linear gradient as the background */
+  background: linear-gradient(to right, #7ea0f6, #ef1f95);
+  /* Set background clip to text to apply gradient only to text */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* Hide original text color */
+}
+
+/* .glass {
+  background: rgba(2, 12, 31, 0.05);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+} */
+
+/* components/Loading.module.css */
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 1000;
+}
+
+.spinner {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
