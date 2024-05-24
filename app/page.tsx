@@ -29,21 +29,21 @@ export default function Home() {
   }, []);
 
   const springConfig = { stiffness: 300, damping: 30 };
-  const animatedNavbarPos = useSpring(20, springConfig); // Initial value of 20
+  const animatedNavbarPos = useSpring(20, springConfig);
   const animatedNavWidth = useSpring(1, springConfig);
 
   useMotionValueEvent(scrollYProgress, "change", (latest) => {
     const scrollPercentage = latest * 100;
     if (scrollPercentage > 5) {
-      animatedNavbarPos.set(viewportHeight - 100); // Adjust the 100 value if you want some offset from the bottom
+      animatedNavbarPos.set(viewportHeight - 100);
       setTimeout(() => {
-        animatedNavWidth.set(0.5); // 0.5 for half width
+        animatedNavWidth.set(0.5);
         setNavWidth("1/2");
       }, 500);
     } else {
       animatedNavbarPos.set(20);
       setTimeout(() => {
-        animatedNavWidth.set(0.5); // 0.5 for half width
+        animatedNavWidth.set(0.5);
         setNavWidth("full");
       }, 500);
     }
@@ -60,8 +60,8 @@ export default function Home() {
         id="Home"
         className="w-full"
         style={{
-          backgroundImage: "url('/city.svg')",
-          backgroundSize: "fit",
+          backgroundImage: "url('/portfolio-z/city.svg')",
+          backgroundSize: "contain",
           backgroundPosition: "bottom",
           backgroundRepeat: "no-repeat",
         }}

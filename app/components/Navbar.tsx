@@ -7,6 +7,7 @@ import Profile from "./icons/Projects";
 import LinkedIn from "./icons/LinkedIn";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Logo from "./icons/Logo";
 
 const Icons = [Home, Profile, Projects, Github, LinkedIn];
 const NavIcons = [
@@ -57,8 +58,8 @@ const Navbar = (props: Props) => {
       } md:justify-between`}
       style={{ transition: "width 0.3s ease" }}
     >
-      <div className="hidden md:block">
-        <Image src="/logo.svg" alt="logo" width={45} height={45} />
+      <div className="hidden md:block w-[45px] h-[45px]">
+        <Logo />
       </div>
       <div className="flex justify-center gap-12 w-1/2">
         {NavIcons.map((Component, index) => (
