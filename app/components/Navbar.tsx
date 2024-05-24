@@ -12,7 +12,7 @@ import Logo from "./icons/Logo";
 const NavIcons = [
   {
     name: "Hero",
-    link: "#Home",
+    link: "#/",
     component: Home,
   },
   {
