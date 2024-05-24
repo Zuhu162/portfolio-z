@@ -9,7 +9,6 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Logo from "./icons/Logo";
 
-const Icons = [Home, Profile, Projects, Github, LinkedIn];
 const NavIcons = [
   {
     name: "Hero",
@@ -63,7 +62,11 @@ const Navbar = (props: Props) => {
       </div>
       <div className="flex justify-center gap-12 w-1/2">
         {NavIcons.map((Component, index) => (
-          <Link key={index} href={Component.link}>
+          <Link
+            key={index}
+            href={Component.link}
+            target={Component.link.includes("#") ? "_self" : "_blank"}
+          >
             <Component.component
               className="w-6 fill-neutral hover:fill-accent cursor-pointer transition duration-300 ease-in-out"
               key={index}
