@@ -1,3 +1,4 @@
+import { StaticImageData } from "next/image";
 import getExperienceData from "@/utils/ExperienceData";
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -9,7 +10,7 @@ interface Experience {
   location: string;
   date: string;
   link: string;
-  img: string;
+  img: StaticImageData;
 }
 
 const Experiences: React.FC = () => {
@@ -93,6 +94,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
           href={experience.link}
           className="transition ease-in-out hover:-translate-y-5"
         >
+          {/* Assuming next/image is used */}
           <Image
             src={experience.img}
             width={350}
