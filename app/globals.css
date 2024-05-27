@@ -41,3 +41,31 @@ body {
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 } */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0e172c;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7ea0f6;
+  /* background-image: linear-gradient(
+    to right top,
+    #020c1f,
+    #04081a,
+    #050514,
+    #04020d,
+    #010004
+  ); */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #d9e2fc;
+}
