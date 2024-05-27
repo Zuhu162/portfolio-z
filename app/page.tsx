@@ -13,6 +13,7 @@ import About from "./components/About";
 import { Projects } from "./components/Projects";
 import Experiences from "./components/Experiences";
 import Footer from "./components/Footer";
+import "./globals.css";
 
 export default function Home() {
   const { scrollYProgress } = useScroll();
