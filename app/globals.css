@@ -26,6 +26,13 @@ body {
   background: rgba(34, 42, 56, 0.3);
 }
 
+.heroBG {
+  background-image: url(../public/city.svg);
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
 .text-gradient {
   /* Use a linear gradient as the background */
   background: linear-gradient(to right, #7ea0f6, #ef1f95);

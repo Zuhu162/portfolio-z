@@ -10,7 +10,8 @@
     "start": "next start",
     "lint": "next lint",
     "export": "next export",
-    "deploy": "npm run build && npm run export && touch out/.nojekyll && gh-pages -d out"
+    "deploy": "npm run build && npm run export && touch out/.nojekyll && gh-pages -d out",
+    "static": "next build && next export && touch ./out/.nojekyll && echo 'evandro.sasse.it' > ./out/CNAME"
   },
   "dependencies": {
     "@monaco-editor/react": "^4.6.0",

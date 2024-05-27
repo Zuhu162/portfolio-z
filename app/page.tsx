@@ -14,6 +14,7 @@ import { Projects } from "./components/Projects";
 import Experiences from "./components/Experiences";
 import Footer from "./components/Footer";
 import "./globals.css";
+import city from "../public/city.svg";
 
 export default function Home() {
   const { scrollYProgress } = useScroll();
@@ -57,16 +58,7 @@ export default function Home() {
       >
         <Navbar width={navWidth} />
       </motion.div>
-      <div
-        id="Home"
-        className="w-full"
-        style={{
-          backgroundImage: "url('/portfolio-z/city.svg')",
-          backgroundSize: "contain",
-          backgroundPosition: "bottom",
-          backgroundRepeat: "no-repeat",
-        }}
-      >
+      <div id="Home" className="w-full heroBG">
         <div className="container mx-auto w-full d:w-9/12 px-2 mb-20">
           <Hero />
         </div>
