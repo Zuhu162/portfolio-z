@@ -40,9 +40,8 @@ const Articles = () => {
         <div className="w-full flex justify-center">
           <div className="w-full md:w-1/2 flex-col container items-center justify-center">
             {articles.map((article, index) => (
-              <a href={article.link} target="/blank">
+              <a key={index} href={article.link} target="/blank">
                 <ArticleCard
-                  key={index}
                   name={article.author}
                   title={article.title}
                   background={extractThumbnail(article.content)}

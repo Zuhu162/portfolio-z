@@ -91,7 +91,7 @@ const About = () => {
             }}>
             Software Engineering student at the University of Technology
             Malaysia with a passion towards FullStack Development. Ready to turn
-            your ideas into reality? Let's connect and create some digital
+            your ideas into reality? Let&apos;s connect and create some digital
             magic! 🚀
           </motion.p>
           <Link
