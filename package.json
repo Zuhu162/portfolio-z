@@ -1,11 +1,7 @@
 {
   "name": "portfoliov2",
   "version": "0.1.0",
-  "private": true,
-<<<<<<< HEAD
-  "homepage": "http://Zuhu162.github.io/reponame",
-=======
->>>>>>> 4988c9f (added articles section)
+  "private": "true",
   "predeploy": "npm run build",
   "scripts": {
     "dev": "next dev",
@@ -18,23 +14,14 @@
   },
   "dependencies": {
     "@monaco-editor/react": "^4.6.0",
-<<<<<<< HEAD
-    "clsx": "^2.1.1",
-    "framer-motion": "^11.2.4",
-=======
     "@tabler/icons-react": "^3.14.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.5.4",
->>>>>>> 4988c9f (added articles section)
     "next": "14.1.3",
     "react": "^18",
     "react-dom": "^18",
     "simplex-noise": "^4.0.1",
-<<<<<<< HEAD
-    "tailwind-merge": "^2.3.0"
-=======
     "tailwind-merge": "^2.5.2"
->>>>>>> 4988c9f (added articles section)
   },
   "devDependencies": {
     "@types/node": "^20",

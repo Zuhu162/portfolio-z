@@ -7,20 +7,11 @@ const Logo = () => {
       height="34"
       viewBox="0 0 46 34"
       fill="none"
-<<<<<<< HEAD
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M21.25 25.1964L21.25 34L6.375 25.1964L6.375 17.4554L21.25 25.1964Z"
-        fill="#7EA0F6"
-        fill-opacity="0.77"
-=======
       xmlns="http://www.w3.org/2000/svg">
       <path
         d="M21.25 25.1964L21.25 34L6.375 25.1964L6.375 17.4554L21.25 25.1964Z"
         fill="#7EA0F6"
         fillOpacity="0.77"
->>>>>>> 4988c9f (added articles section)
       />
       <g filter="url(#filter0_i_223_76)">
         <path
@@ -39,11 +30,7 @@ const Logo = () => {
       <path
         d="M24.0885 25.1964L24.0885 34L38.9635 25.1964L38.9635 17.4554L24.0885 25.1964Z"
         fill="#7EA0F6"
-<<<<<<< HEAD
-        fill-opacity="0.77"
-=======
         fillOpacity="0.77"
->>>>>>> 4988c9f (added articles section)
       />
       <g filter="url(#filter1_i_223_76)">
         <path
@@ -67,14 +54,8 @@ const Logo = () => {
           width="21.7656"
           height="16.8821"
           filterUnits="userSpaceOnUse"
-<<<<<<< HEAD
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-=======
           colorInterpolationFilters="sRGB">
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
->>>>>>> 4988c9f (added articles section)
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -107,14 +88,8 @@ const Logo = () => {
           width="21.7656"
           height="16.8821"
           filterUnits="userSpaceOnUse"
-<<<<<<< HEAD
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-=======
           colorInterpolationFilters="sRGB">
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
->>>>>>> 4988c9f (added articles section)
           <feBlend
             mode="normal"
             in="SourceGraphic"

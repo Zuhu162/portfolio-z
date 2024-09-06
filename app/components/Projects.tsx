@@ -29,8 +29,6 @@ export const Projects = () => {
       bgColor: "#ffffff",
     },
     {
-<<<<<<< HEAD
-=======
       title: "UTM Timetable",
       link: "https://github.com/Zuhu162/UTMFC-Timetable",
       thumbnail: UTMTT,
@@ -38,7 +36,6 @@ export const Projects = () => {
       bgColor: "#ffffff",
     },
     {
->>>>>>> 4988c9f (added articles section)
       title: "Financier - Finance Management System",
       link: "https://github.com/Zuhu162/financier-complete",
       thumbnail: Financier,
@@ -73,16 +70,6 @@ export const Projects = () => {
       desc: "A web-based multi-security testing platform developed during my internship at Ronas Network & Services in Cyberjaya, Malaysia.",
       bgColor: "#ffffff",
     },
-<<<<<<< HEAD
-    {
-      title: "UTM Timetable",
-      link: "https://github.com/Zuhu162/AD-Timetable",
-      thumbnail: UTMTT,
-      desc: "A timetable and management system for the University of Technology Malaysia, created during our Applications Development course using the university's API.",
-      bgColor: "#ffffff",
-    },
-=======
->>>>>>> 4988c9f (added articles section)
   ];
 
   return (
