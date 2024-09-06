@@ -17,15 +17,21 @@ const Hero = () => {
           className="my-typewriter"
           cursorClassName="my-cursor"
         />
-        <p className="text-lg text-primary">Software Engineer</p>
+        <p className="text-lg text-primary mt-4">Software Engineer</p>
         <p className="text-lg text-white">MERN Stack Developer</p>
         <div className="w-full">
           <Link href="#Projects">
-            <button className="bg-primary hover:bg-accent duration-300 w-full md:w-1/3 text-white font-bold py-3 px-4 rounded-xl mt-10">
+            <button className="bg-primary hover:bg-accent duration-300 w-full md:w-1/3 text-white font-bold py-2 px-4 rounded-md mt-10 mr-5">
               View Projects
             </button>
           </Link>
+          <Link href="#Articles">
+            <button className="bg-neutral hover:bg-accent hover:text-white duration-300 w-full md:w-1/3 text-black font-bold py-2 px-4 rounded-md mt-5">
+              View Blogs
+            </button>
+          </Link>
         </div>
+
         <div className="hidden mt-48 xl:fle">
           <motion.div
             animate={{ y: [0, 100, 0] }}
@@ -36,8 +42,7 @@ const Hero = () => {
               type: "spring",
               stiffness: 100,
               damping: 10,
-            }}
-          >
+            }}>
             <Down className="w-6 fill-neutral mr-3" />
           </motion.div>
           <p className="text-md text-neutral">Scroll to see more sections</p>

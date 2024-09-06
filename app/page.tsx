@@ -6,7 +6,7 @@ import {
   useScroll,
   useSpring,
 } from "framer-motion";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/ui/Navbar";
 import { useEffect, useState } from "react";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -15,6 +15,9 @@ import Experiences from "./components/Experiences";
 import Footer from "./components/Footer";
 import "./globals.css";
 import city from "../public/city.svg";
+import { BackgroundBeamsWithCollision } from "./components/ui/background-beams-with-collision";
+import { ArticleCard } from "./components/ui/ArticleCard";
+import Articles from "./components/Articles";
 
 export default function Home() {
   const { scrollYProgress } = useScroll();
@@ -54,17 +57,19 @@ export default function Home() {
   return (
     <main>
       <motion.div
-        style={{ top: animatedNavbarPos, position: "sticky", zIndex: 10 }}
-      >
+        style={{ top: animatedNavbarPos, position: "sticky", zIndex: 10 }}>
         <Navbar width={navWidth} />
       </motion.div>
-      <div id="Home" className="w-full heroBG">
-        <div className="container mx-auto w-full d:w-9/12 px-2 mb-20">
-          <Hero />
+      <BackgroundBeamsWithCollision>
+        <div id="Home" className="w-full heroBG">
+          <div className="container mx-auto w-full d:w-9/12 px-2 mb-20">
+            <Hero />
+          </div>
         </div>
-      </div>
+      </BackgroundBeamsWithCollision>
       <About />
       <Projects />
+      <Articles />
       <Experiences />
       <Footer />
     </main>

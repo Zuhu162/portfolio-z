@@ -40,21 +40,18 @@ const About = () => {
             duration: 1,
             ease: "easeInOut",
           }}
-          className="w-full hidden lg:flex justify-start mr-50"
-        >
+          className="w-full hidden lg:flex justify-start mr-50">
           <FaceLeft />
           <div className="relative top-0 left-0">
             <motion.div
               transition={bounceTransition}
-              animate={{ y: ["0%", "-5%"] }}
-            >
+              animate={{ y: ["0%", "-5%"] }}>
               <Image src={skills1} alt="Skills-1" />
             </motion.div>
             <motion.div
               className="absolute top-0 right-0"
               transition={bounceTransition}
-              animate={{ y: ["0%", "5%"] }}
-            >
+              animate={{ y: ["0%", "5%"] }}>
               <Image src={skills2} alt="Skills-2" />
             </motion.div>
           </div>
@@ -91,18 +88,16 @@ const About = () => {
             transition={{
               duration: 1,
               ease: "easeInOut",
-            }}
-          >
-            Software Engineering student at University of Technology Malaysia.
-            Since my childhood I have been tinkering with computers and all
-            sorts of technologies, that in some way or another ignited my
-            passion towards this career.
+            }}>
+            Software Engineering student at the University of Technology
+            Malaysia with a passion towards FullStack Development. Ready to turn
+            your ideas into reality? Let's connect and create some digital
+            magic! 🚀
           </motion.p>
           <Link
             href="https://drive.google.com/file/d/1Y7YaRudlIq5vBkL80-bhnCeM750mWYTV/view?usp=sharing"
             target="blank"
-            className="flex justify-center w-full"
-          >
+            className="flex justify-center w-full">
             <button className="flex justify-center items-center text-sm gap-2 bg-transparent hover:bg-neutral border border-neutral w-full xl:w-2/5 text-neutral hover:text-black duration-300 font-bold py-3 px-4 rounded-xl mt-12">
               Download Resume
               <Download />
@@ -123,20 +118,17 @@ const About = () => {
           transition={{
             duration: 1,
             ease: "easeInOut",
-          }}
-        >
+          }}>
           <div className="relative top-0 right-0">
             <motion.div
               transition={bounceTransition}
-              animate={{ y: ["0%", "-3%"] }}
-            >
+              animate={{ y: ["0%", "-3%"] }}>
               <Image src={hobbies1} alt="Skills-1" />
             </motion.div>
             <motion.div
               className="absolute top-1 right-10"
               transition={bounceTransition}
-              animate={{ y: ["0%", "5%"] }}
-            >
+              animate={{ y: ["0%", "5%"] }}>
               <Image layout="responsive" src={hobbies2} alt="Skills-2" />
             </motion.div>
           </div>
