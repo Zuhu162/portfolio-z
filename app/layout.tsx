@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import ogImage from "./opengraph-image.jpg";
+import ogImage from "./opengraph-image.png";
 
 const inter = Inter({ subsets: ["latin"] });
 
