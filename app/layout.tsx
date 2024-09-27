@@ -10,6 +10,9 @@ export const metadata: Metadata = {
     "Zuhayer, Zuhayer Bangladesh, Zuhayer Malaysia, Zuhayer UTM, Zuhayer Universiti Teknologi Malaysia, Zuhayer Siddique, Zuhayer Adnan Siddique, Software Engineer Bangladesh, Software Engineer, MERN Stack Developer, React Developer, JavaScript, TypeScript, NextJS, University of Technology Malaysia, Software Engineering Student, Project Portfolio",
   description:
     "Software engineer specializing in MERN Stack development. Explore my projects, skills, and resume.",
+  openGraph: {
+    images: "/opengraph-image.jpg",
+  },
   icons: {
     icon: [
       {
