@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "Software engineer specializing in MERN Stack development. Explore my projects, skills, and resume.",
   openGraph: {
-    images: "/opengraph-image.jpg",
+    images: "/opengraph-image.png",
   },
   icons: {
     icon: [
