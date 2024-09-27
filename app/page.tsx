@@ -6,7 +6,6 @@ import {
   useScroll,
   useSpring,
 } from "framer-motion";
-import Navbar from "./components/ui/Navbar";
 import { useEffect, useState } from "react";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -18,11 +17,16 @@ import city from "../public/city.svg";
 import { BackgroundBeamsWithCollision } from "./components/ui/background-beams-with-collision";
 import { ArticleCard } from "./components/ui/ArticleCard";
 import Articles from "./components/Articles";
+import Logo from "./components/icons/Logo";
+import AnimatedLogo from "./components/Logo-animation";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   const { scrollYProgress } = useScroll();
   const [viewportHeight, setViewportHeight] = useState(0);
   const [navWidth, setNavWidth] = useState("full");
+
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const updateViewportHeight = () => setViewportHeight(window.innerHeight);
@@ -53,6 +57,24 @@ export default function Home() {
       }, 500);
     }
   });
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 2000); // 2 seconds delay
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (isLoading) {
+    return (
+      <div className="flex items-center justify-center h-screen">
+        <div className="text-center">
+          <AnimatedLogo />
+        </div>
+      </div>
+    );
+  }
 
   return (
     <main>
