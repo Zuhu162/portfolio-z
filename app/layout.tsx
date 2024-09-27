@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import ogImage from "./opengraph-image.png";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "Software engineer specializing in MERN Stack development. Explore my projects, skills, and resume.",
   openGraph: {
-    images: "https://zuhu.dev/opengraph-image.png",
+    images: "https://zuhu.dev/opengraph-image.JPG",
   },
   icons: {
     icon: [
