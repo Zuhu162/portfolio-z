@@ -23,7 +23,7 @@ export const Projects = () => {
     },
     {
       title: "RapidKL Pathfinder",
-      link: "https://www.afubot.com/",
+      link: "https://github.com/Zuhu162/AStar-MRT-PathFinder",
       thumbnail: RapidKL,
       desc: "This project is a pathfinding visualization tool for MRT systems, inspired by heuristic search algorithms such as A* and Dijkstra. The tool uses the MyRapid KL MRT system as its base and allows users to visualize stations, lines, and optimal paths between them.",
       bgColor: "#ffffff",
@@ -31,7 +31,7 @@ export const Projects = () => {
 
     {
       title: "Gradify",
-      link: "https://github.com/Zuhu162/UTMFC-Timetable",
+      link: "https://github.com/Zuhu162/Gradify",
       thumbnail: Gradify,
       desc: " is a web-based platform that simplifies assignment management and grading for teachers and students. Teachers can create assignments, track submissions, and grade efficiently, while students can submit their work via Google Drive or PDFs and view their grades seamlessly. 🚀",
       bgColor: "#ffffff",
