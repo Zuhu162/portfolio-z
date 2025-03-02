@@ -6,19 +6,34 @@ import { HeroParallaxMob } from "./HeroParallaxMob";
 import Dunder from "../../public/Projects/dunder.png";
 import Epic from "../../public/Projects/epic.png";
 import Financier from "../../public/Projects/financier.png";
-import Fresheries from "../../public/Projects/fresheries.png";
+import Gradify from "../../public/Projects/Gradify.png";
 import Screenshot from "../../public/Projects/screenshot.png";
-import Afubot from "../../public/Projects/afubot.png";
+import RapidKL from "../../public/Projects/rapidkl.png";
 import Pentest from "../../public/Projects/pentest.png";
 import UTMTT from "../../public/Projects/utmtt.png";
 
 export const Projects = () => {
   const products = [
     {
-      title: "Dunder Mifflin Office Management System",
-      link: "https://github.com/Zuhu162/dund-sys-client",
-      thumbnail: Dunder,
-      desc: "An office management tool inspired by the beloved sitcom, packed with features and visualizers to manage daily office tasks efficiently.",
+      title: "UTM Timetable",
+      link: "https://github.com/Zuhu162/UTMFC-Timetable",
+      thumbnail: UTMTT,
+      desc: "A timetable and management system for the University of Technology Malaysia, created during our Applications Development course using the university's API.",
+      bgColor: "#ffffff",
+    },
+    {
+      title: "RapidKL Pathfinder",
+      link: "https://www.afubot.com/",
+      thumbnail: RapidKL,
+      desc: "This project is a pathfinding visualization tool for MRT systems, inspired by heuristic search algorithms such as A* and Dijkstra. The tool uses the MyRapid KL MRT system as its base and allows users to visualize stations, lines, and optimal paths between them.",
+      bgColor: "#ffffff",
+    },
+
+    {
+      title: "Gradify",
+      link: "https://github.com/Zuhu162/UTMFC-Timetable",
+      thumbnail: Gradify,
+      desc: " is a web-based platform that simplifies assignment management and grading for teachers and students. Teachers can create assignments, track submissions, and grade efficiently, while students can submit their work via Google Drive or PDFs and view their grades seamlessly. 🚀",
       bgColor: "#ffffff",
     },
     {
@@ -29,10 +44,10 @@ export const Projects = () => {
       bgColor: "#ffffff",
     },
     {
-      title: "UTM Timetable",
-      link: "https://github.com/Zuhu162/UTMFC-Timetable",
-      thumbnail: UTMTT,
-      desc: "A timetable and management system for the University of Technology Malaysia, created during our Applications Development course using the university's API.",
+      title: "Dunder Mifflin Office Management System",
+      link: "https://github.com/Zuhu162/dund-sys-client",
+      thumbnail: Dunder,
+      desc: "An office management tool inspired by the beloved sitcom, packed with features and visualizers to manage daily office tasks efficiently.",
       bgColor: "#ffffff",
     },
     {
@@ -42,13 +57,7 @@ export const Projects = () => {
       desc: "A comprehensive finance management app built with ReactJS, ExpressJS, and MongoDB to log and visualize financial transactions effectively.",
       bgColor: "#ffffff",
     },
-    {
-      title: "Fresheries - Redux",
-      link: "https://github.com/Zuhu162/redux-fresheries-client",
-      thumbnail: Fresheries,
-      desc: "A project that marks my first foray into Redux, providing a powerful introduction to state management in larger-scale applications.",
-      bgColor: "#ffffff",
-    },
+
     {
       title: "Screenshot Scraper",
       link: "https://github.com/Zuhu162/screenshot_scraper",
@@ -56,13 +65,7 @@ export const Projects = () => {
       desc: "Utilizing Puppeteer and Nodemailer, this program schedules and captures website screenshots at regular intervals, delivering them directly to your inbox.",
       bgColor: "#ffffff",
     },
-    {
-      title: "AFUbot",
-      link: "https://www.afubot.com/",
-      thumbnail: Afubot,
-      desc: "Landing page for a university-funded inter-campus food delivery robot, featuring 3D assets created with ThreeJS.",
-      bgColor: "#ffffff",
-    },
+
     {
       title: "Pentest Tool - Ronas Network & Services",
       link: "https://pentest.ronasnetwork.com/",

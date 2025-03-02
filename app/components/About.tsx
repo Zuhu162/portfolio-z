@@ -95,7 +95,7 @@ const About = () => {
             magic! 🚀
           </motion.p>
           <Link
-            href="https://drive.google.com/file/d/1Y7YaRudlIq5vBkL80-bhnCeM750mWYTV/view?usp=sharing"
+            href="https://drive.google.com/file/d/1XuXLi2UNpQKvp-dvLy926xHt9XLo0MzB/view?usp=sharing"
             target="blank"
             className="flex justify-center w-full">
             <button className="flex justify-center items-center text-sm gap-2 bg-transparent hover:bg-neutral border border-neutral w-full xl:w-2/5 text-neutral hover:text-black duration-300 font-bold py-3 px-4 rounded-xl mt-12">
