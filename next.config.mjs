@@ -2,7 +2,7 @@
 const nextConfig = {
   output: "export",
   trailingSlash: true,
-  basePath: "",
+  basePath: "/portfolio-z",
   images: {
     unoptimized: true,
   },
